@@ -1,5 +1,9 @@
 body{
-    background-color:#9ede0ad;
+    background: linear-gradient(15deg,  rgb(19,84,122) 0% , rgb(128,208,199) 30% , rgb(19,84,122) 100%);
+    height:3500px;
+  }
+  h2{
+    color: rgb(19,84,122);
   }
   .block{
     padding:13px;
@@ -68,12 +72,13 @@ body{
     color: #f1a16e !important;
     text-decoration: none !important;
   }
-  .sidebar{ 
-       background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%) !important;
-      position: fixed;
-      width: 20%;
+  #sidebar-wrapper{ 
+
+    position: fixed;
+    width: 20%;
    }
   #main-cont{
+    background-color:#9ede0ad;
     padding:10px;
   }
   .card {
@@ -96,10 +101,6 @@ body{
   .card-body > h5 {
    color:  #f1a16e  ;
   }
-  .jumbotron{
-    background-color:  #f2f3f2 !important;
-    background-image: linear-gradient(15deg, #f2f3f2 0%, #e4e7e4 100%) !important;
-  }
   .btn{
     background-color: #3b8196 !important ;
   }
@@ -116,8 +117,8 @@ body{
     text-decoration: none !important;
   }
   .jumbotron{
-    background-color:  #f2f3f2 !important;
-    background-image: linear-gradient(15deg, #f2f3f2 0%, #e4e7e4 100%) !important;
+    background-color:  #f2f3f2 ;
+    background: linear-gradient(15deg, #f2f3f2 0%, #e4e7e4 100%);
   }
   
   /* ##Device = Desktops */
@@ -125,7 +126,7 @@ body{
   @media (max-width: 1000px)  {
     .sidebar{
       width: 99.9%; 
-          position: static;
+          position: static; 
       height:450px;
     }
     .content{
