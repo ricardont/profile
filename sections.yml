@@ -1,14 +1,17 @@
 - title: Ricardo Ontiveros
   desc: Creative and enthusiastic developer.
-  sub_sections: [
-    '<a href="https://www.linkedin.com/in/ricardoont/" ><i class="fab fa-2x fa-linkedin"></i></a>',
-    '<a href="https://github.com/ricardont" ><i class="fab fa-2x fa-github"></i></a>',
-    '<a href="https://twitter.com/RicardoOnt" ><i class="fab fa-2x fa-twitter"></i></a>',
-  ]
+  sub_sections: 
+    - <a href="https://www.linkedin.com/in/ricardoont/" ><i class="fab fa-2x fa-linkedin"></i></a>
+    - <a href="https://github.com/ricardont" ><i class="fab fa-2x fa-github"></i></a>
+    - <a href="https://twitter.com/RicardoOnt" ><i class="fab fa-2x fa-twitter"></i></a>
   img: https://pbs.twimg.com/profile_images/993214736014557184/lKqdHYlJ_400x400.jpg
-- title: Profile  
+- title: Portfolio  
+  desc: 
+  sub_sections: [60,61,62,63,64]    
+  img:
+- title: Bio  
   desc: I am a creative, innovative, enthusiastic developer with a strong passion for web development and data analysis. I’m an easy-going person who likes work with people and I enjoy taking new challenges and experiences that makes me expand my skills, knowledge and horizons. I have taste for the constant learning and self-constructivism in both of my personal and professional aspects.
-  sub_sections: []
+  sub_sections:
   img:
 - title: Experience  
   desc: 
@@ -24,10 +27,6 @@
   img:
 - title: Hobbies  
   desc: Technology, coding, music, movies, videogames, books, drawing, graphic design, ping pong and running.
-  sub_sections: []    
-  img:
-- title: Portfolio  
-  desc: 
-  sub_sections: [60,61,62,63,64]    
+  sub_sections:  
   img:
 

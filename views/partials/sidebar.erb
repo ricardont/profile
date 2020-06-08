@@ -1,37 +1,23 @@
 <div id="sidebar-wrapper" class="block sidebar">
-              <div class="profile-cont">
-                <img class="profile-pic" src=" <%= profile.img.to_s %> " alt="Avatar">
-                <p> <%=  profile.title   %> </p>
-              </div>
-              <div class="contact-links-cont">    
-                  <div class="contact-links-header">
-                    <% profile.sub_sections.each do | link | %>
-                        <%= link %> 
-                    <% end %>
-                  <p >
-                    <%= profile.desc %>
-                  </p>
-                  </div>
-                  <ul id="navbar-items">
-                  <li class="sidebar-brand">
-                      <a href="#profile-cont">Profile</a>
-                  </li>
-                  <li>
-                      <a href="#exp-cont">Experience</a>
-                  </li>
-                  <li>
-                      <a href="#skills-cont">Skills</a>
-                  </li>
-                  <li>
-                      <a href="#edu-cont">Education</a>
-                  </li>
-                  <li>
-                      <a href="#hobbies-cont">Hobbies</a>
-                  </li>
-                  <li>
-                      <a href="#pfolio-cont">Portfolio</a>
-                  </li>
-              </ul>
-              </div> 
-              </br>
+    <%  prof = profile[0] %>
+    <div class="profile-cont">
+    <img class="profile-pic" src=" <%= prof.img.to_s %> " alt="Avatar">
+    <p> <%=  prof.title   %> </p>
+    </div>
+    <div class="contact-links-cont">    
+        <div class="contact-links-header">
+        <% prof.sub_sections.each do | link | %>
+            <%= link %> 
+        <% end %>
+        <p ><%= prof.desc %></p>
+        </div>
+        <ul id="navbar-items">
+            <% profile[1..-1].each do | p | %>
+                <li class="sidebar-brand">
+                    <a href="#<%= p.title.downcase %>-cont"><%= p.title %></a>
+                </li>
+            <% end %>
+        </ul>
+    </div> 
+    </br>
 </div>
