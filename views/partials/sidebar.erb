@@ -1,15 +1,15 @@
 <div id="sidebar-wrapper" class="block sidebar">
               <div class="profile-cont">
-                <img class="profile-pic" src="https://pbs.twimg.com/profile_images/993214736014557184/lKqdHYlJ_400x400.jpg" alt="Avatar">
-                <p>Ricardo Ontiveros</p>
+                <img class="profile-pic" src=" <%= profile.img.to_s %> " alt="Avatar">
+                <p> <%=  profile.title   %> </p>
               </div>
               <div class="contact-links-cont">    
                   <div class="contact-links-header">
-                    <a href="https://www.linkedin.com/in/ricardoont/" ><i class="fab fa-2x fa-linkedin"></i></a>
-                    <a href="https://github.com/ricardont" ><i class="fab fa-2x fa-github"></i></a>
-                    <a href="https://twitter.com/RicardoOnt" ><i class="fab fa-2x fa-twitter"></i></a>
+                    <% profile.sub_sections.each do | link | %>
+                        <%= link %> 
+                    <% end %>
                   <p >
-                    Creative and enthusiastic developer. 
+                    <%= profile.desc %>
                   </p>
                   </div>
                   <ul id="navbar-items">

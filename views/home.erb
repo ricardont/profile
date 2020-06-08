@@ -1,5 +1,5 @@
         
-  <%= erb :'partials/sidebar' %>
-  <%= erb :'partials/content' %>
+<%= erb :'partials/sidebar' , locals:  { profile: @sections[0] } %>
+<%= erb :'partials/content' , locals:  { sections: @sections }   %>
 
   
