@@ -1,0 +1,12 @@
+<% gen_subs.each do | gen_sub |  %>
+    <p style="font-size:1.3em;weight:bold;"><%= gen_sub.title %><p>
+    <p class="lead"><p class="lead"><%= gen_sub.desc %></p>
+    <ul>
+        <% unless gen_sub.gen_subss == nil %>%
+            <% gen_sub.gen_subss do | sbs | %>   
+                <li>sbs</li>
+            <% end %>
+        <% end %>
+    </ul>
+    <hr>
+<% end %>

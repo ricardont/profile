@@ -7,7 +7,47 @@
   img: https://pbs.twimg.com/profile_images/993214736014557184/lKqdHYlJ_400x400.jpg
 - title: Portfolio  
   desc: 
-  sub_sections: [60,61,62,63,64]    
+  sub_sections: 
+    - title: Data Visualization
+      desc: Data Visualization Web App, graphs and grids.
+      sub_sections: 
+        language: <i class="fas fa-gem " ></i> python
+        language_color: green
+        git_link: https://github.com/ricardont/booking 
+        live_link:
+      img: https://cdn3.iconfinder.com/data/icons/random-generic-06/100/web_app_browser_web_page_website_web_design-512.png
+    - title: Micropost Blog
+      desc: Micro-post blogging app
+      sub_sections: 
+        language: <i class="fas fa-gem " ></i> ruby
+        language_color: red
+        git_link: https://github.com/ricardont/miniblog 
+        live_link:
+      img: https://cdn3.iconfinder.com/data/icons/random-generic-06/100/web_app_browser_web_page_website_web_design-512.png
+    - title: School Management
+      desc: App to manage students, teachers schedule, subsriptions
+      sub_sections: 
+        language: <i class="fas fa-gem " ></i> ruby
+        language_color: red
+        git_link: https://github.com/ricardont/school-rails 
+        live_link:
+      img: https://cdn3.iconfinder.com/data/icons/random-generic-06/100/web_app_browser_web_page_website_web_design-512.png
+    - title: Real Estate Catalog
+      desc: Catalog for real estate company app with capability of post properties articles.
+      sub_sections: 
+        language: <i class="fas fa-gem " ></i> ruby
+        language_color: red
+        git_link: https://github.com/ricardont/blog 
+        live_link:
+      img: https://cdn3.iconfinder.com/data/icons/random-generic-06/100/web_app_browser_web_page_website_web_design-512.png
+    - title: Flights Search
+      desc: App to retrieve updated flights across the world
+      sub_sections: 
+        language: <i class="fas fa-gem " ></i> ruby
+        language_color: red
+        git_link: https://github.com/ricardont/blog 
+        live_link:
+      img: https://cdn3.iconfinder.com/data/icons/random-generic-06/100/web_app_browser_web_page_website_web_design-512.png
   img:
 - title: Bio  
   desc: I am a creative, innovative, enthusiastic developer with a strong passion for web development and data analysis. I’m an easy-going person who likes work with people and I enjoy taking new challenges and experiences that makes me expand my skills, knowledge and horizons. I have taste for the constant learning and self-constructivism in both of my personal and professional aspects.
@@ -15,15 +55,59 @@
   img:
 - title: Experience  
   desc: 
-  sub_sections: [20,21,22,24]
+  sub_sections: 
+    - title: AutoZone - Programmer Analyst (2015- Present)  
+      desc: Working in data analysis, web reporting and data visualization oriented to the retail area (including sales, inventory, vehicle gps tracking, payroll, among others); using Web Focus software in conjunction with known front-end technologies (such as html, js, jquery, css, d3 graphs). I am in charge of ETL process, along with detecting business reporting needs to design, develop and transforms those needs in web reporting meaningful and suitable solutions for final users; such as KPIs, dashboards, graphs, etc. 
+      sub_sections: 
+        - Web Focus 8, 7, app studio, info assist
+        - Report Caster
+        - Oracle SQL
+        - SAS
+        - HTML, JavaScript, JQuery, CSS
+        - D3 graphs
+      img:
+    - title: AutoZone - Support Agent (2013- 2015) 
+      desc: Working in IT help desk, providing technical support and user’s guidance for over five thousand stores in the company; including US, Mexico and Puerto Rico countries. 
+      sub_sections: 
+      img:
+    - title: Freelance - Web Developer (2017)
+      desc: Web Developer for a Real Estate company, responsible of design, develop and deploy web dynamic catalog; determining company color scheme, logo, web page theme, setting up the database, deployment server and creating user’s credentials to make content friendly editable by final user.
+      sub_sections: 
+        - Ruby on Rails, Image Magic, Heroku, AWS, Devise
+        - HTML, JavaScript, JQuery, CSS, Bootstrap
+        - PostgreSQL
+      img:
+    - title: Public School - Math Teacher (2007- 2015)
+      desc: Mathematics teacher at a middle school, in charge of the following aspects
+      sub_sections: 
+        - Student’s coaching.
+        - Creation and application of monthly exams.
+        - Create and maintain reporting of student’s score and attendance data in excel.
+      img:
   img:
 - title: Skills  
   desc: 
-  sub_sections: [30,31,32,34]
+  sub_sections: 
+    - title: Web Development 
+      desc: Web Focus, Ruby on Rails, Sinatra, HTML, CSS, Bootstrap, JavaScript, Python, Flask.
+      sub_sections: 
+      img:
+    - title: Versioning
+      desc:  Git, Subversion.
+      sub_sections: 
+      img:
+    - title: DB, Reporting 
+      desc:  Web Focus, SAS, MySQL, MSSQLServer, PL/SQL , PostgreSQL, Active Record.
+      sub_sections: 
+      img:
   img:
 - title: Education  
   desc: 
-  sub_sections: [40]  
+  sub_sections: 
+    - title: Bachelor’s Degree in Computer Science  
+      desc: Graduated from University of Chihuahua state in Mexico (2003-2008)
+      sub_sections:
+      img: 
   img:
 - title: Hobbies  
   desc: Technology, coding, music, movies, videogames, books, drawing, graphic design, ping pong and running.

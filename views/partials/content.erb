@@ -3,8 +3,15 @@
         <% sections[1..-1].each do | section | %>
             <div id="<%= section.title.downcase  %>-cont" class="jumbotron">
                 <center><h2><%= section.title %></h2></center>
-                <p class="lead"><%= section.desc %></p>
-            </div>
+                <p class="lead"><%= section.desc %></p>                     
+                  <% unless section.sub_sections  == nil %>
+                    <% if section.title  == 'Portfolio' %>          
+                      <%= erb :'partials/sub_sections/portfolio' , locals:  { sub_sections: section.sub_sections } %>
+                    <% else %>
+                      <%= erb :'partials/sub_sections/general' , locals:  { gen_subs: section.sub_sections } %>
+                    <% end %>
+                  <% end %>
+              </div>
         <% end%>
       </div> 
   </div> 

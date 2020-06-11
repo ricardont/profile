@@ -1,0 +1,20 @@
+<div class="row pfolio-cont" style="hight:300px;">
+    <% sub_sections.each do | sub_section |  %>
+        <div class="card-cont col-xl-4 col-lg-6 col-md-6 col-sm-12">
+            <center>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="<%= sub_section.img %>" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"><%= sub_section.title %></h5>
+                        <p class="card-text"><%= sub_section.desc %></p>
+                        <ul class="list-pfolio">                                
+                                <li style="color: <%= sub_section.sub_sections.language_color; %> "><%= sub_section.sub_sections.language %></li>
+                                <li><a href="<%= sub_section.sub_sections.git_link %>" ><i class="fab fa-2x fa-github link-pfolio-git"></i></a></li>
+                                <li><a href="<%= sub_section.sub_sections.live_link %>" class="btn ">Live Demo</a></li>
+                        </ul>        
+                    </div>
+                </div>
+            </center>
+        </div>
+    <% end %>
+</div>
